@@ -4,6 +4,7 @@ import {List} from "./components/List/List";
 import {useSelector} from "react-redux";
 import {store} from "./store";
 import {IncomeInput} from "./containers/IncomeInput/IncomeInput";
+import {ExpenseTotal} from "./containers/ExpenseTotal/ExpenseTotal";
 
 export function App() {
 
@@ -26,7 +27,7 @@ export function App() {
                 <div className={ `col-11 col-md-6 col-lg-4 ${ s.expense_list }` }>
                     <List items={ expenseList }/>
                     <div className={ `col-12 ${ s.expense_total }` }>
-                        ExpenseTotal
+                        <ExpenseTotal />
                     </div>
                 </div>
             </div>
