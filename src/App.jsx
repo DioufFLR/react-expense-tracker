@@ -2,7 +2,6 @@ import s from "./style.module.css";
 import {ExpenseInput} from "./containers/ExpenseInput/ExpenseInput";
 import {List} from "./components/List/List";
 import {useSelector} from "react-redux";
-import {store} from "./store";
 import {IncomeInput} from "./containers/IncomeInput/IncomeInput";
 import {ExpenseTotal} from "./containers/ExpenseTotal/ExpenseTotal";
 import {Logo} from "./components/Logo/Logo";
